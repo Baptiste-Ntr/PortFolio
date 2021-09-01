@@ -20,12 +20,13 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     box-sizing: border-box;
+    z-index: 99;
 }
 
 .accueil {
     color:white;
     border-radius: 100px;
-    background-color: #ffb703;
+    background-color: #1985A1;
     height: 54px;
     width: 139px;
     display: flex;
@@ -59,7 +60,7 @@ body {
 .projets:hover, .contact:hover {
     color: white;
     border: none;
-    background-color: #fcbf49;
+    background-color: #1985A1;
     transition: all 0.3s;
 }
 
@@ -92,5 +93,55 @@ body {
 }
 
 .blue {
-    color: #fb8500;
+    color: #1985A1;
+}
+
+.mail-container{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 120px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nom {
+    /* font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 300px;
+    border: none;
+    text-decoration: none;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 30px; */
+
+    position: absolute;
+    height: 28px;
+    width: 52px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #46494C;
+
+}
+
+
+#message {
+    height: 200px;
+    width: 300px;
+    text-align: start;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nom:focus, #mail:focus, #message:focus {
+    outline: none;
 }
