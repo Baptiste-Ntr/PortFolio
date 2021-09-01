@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body {
-    height: 1000px;
+    height: 1100px;
 }
 
 .nav {
@@ -52,6 +53,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .projets:hover, .contact:hover {
@@ -61,3 +63,34 @@ body {
     transition: all 0.3s;
 }
 
+.maintext {
+    color: #46494C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.arrow {
+    color: #46494C;
+    font-size: 64px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 7px #46494C;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
+.blue {
+    color: #1985A1;
+}
