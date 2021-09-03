@@ -106,31 +106,19 @@ body {
     top: 120px;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
 }
 
-#nom {
-    /* font-family: 'Roboto', sans-serif;
+#nom, #mail {
+    font-family: 'Roboto', sans-serif;
     height: 50px;
     width: 300px;
     border: none;
     text-decoration: none;
     border-radius: 100px;
-    text-align: center;
-    font-size: 30px; */
-
-    position: absolute;
-    height: 28px;
-    width: 52px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    
-    color: #46494C;
-
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
 }
 
 
@@ -144,4 +132,22 @@ body {
 
 #nom:focus, #mail:focus, #message:focus {
     outline: none;
+}
+
+.btnsend {
+    background-color: red;
+    height: 150px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 600px;
+}
+
+#Sendbtn {
+    height: 54px;
+    width: 139px;
+    border: none;
+    border-radius: 100px;
 }
