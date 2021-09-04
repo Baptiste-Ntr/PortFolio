@@ -14,14 +14,14 @@
 </head>
 <body>
     <div class="nav">
-        <div class="accueil">
+        <div class="accueil" id="accueil">
             <p> Accueil </p>
         </div>
-        <div class="projets">
+        <div class="projets" id="projets">
             <p> Projets </p>
         </div>
-        <div class="contact">
-            <p> Contact </p>
+        <div class="contact" id="contact">
+            <p onclick="contactopen()"> Contact </p>
         </div>
     </div>
 
@@ -29,17 +29,18 @@
         <p id="animtxt"></p>
     </div>
 
-    <div class="arrow">
-        <i class="fas fa-chevron-down"></i>
+    <div class="mail-container" id="mailcontainer">
+        <i class="fas fa-times" id="croix" onclick="contactclose()"></i>
+        <input type="text" name="nom" id="nom" placeholder="Votre nom">
+        <input type="email" name="mail" id="mail" placeholder="Votre mail">
+        <textarea type="text" name="message" cols="30" rows="10" id="message" placeholder="Votre message"> </textarea>
+    </div>
+    <div class="btnsend" id="btnsend">
+        <input type="button" value="Envoyer" id="Sendbtn">
     </div>
 
-    <div class="mail-container">
-            <input type="text" name="nom" id="nom" placeholder="Votre nom">
-            <input type="email" name="mail" id="mail" placeholder="Votre mail">
-            <textarea type="text" name="message" cols="30" rows="10" id="message" placeholder="Votre message"> </textarea>
-    </div>
-    <div class="btnsend">
-        <input type="button" value="Envoyer" id="Sendbtn">
+    <div class="arrow" onclick="scrolldown()">
+        <i class="fas fa-chevron-down"></i>
     </div>
 
     <!-- link script jss -->

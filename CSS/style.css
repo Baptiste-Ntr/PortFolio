@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body {
-    height: 1100px;
+    height: 2000px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .nav {
@@ -57,6 +61,33 @@ body {
     box-sizing: border-box;
 }
 
+.accueilinverse {
+    color:#1985A1;
+    border-radius: 100px;
+    background-color: #fff;
+    border: solid 2px #1985A1;
+    height: 54px;
+    width: 139px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.projetsinverse {
+    height: 54px;
+    width: 139px;
+    color: #fff;
+    border: solid 2px #1985A1;
+    background-color: #1985A1;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
 .projets:hover, .contact:hover {
     color: white;
     border: none;
@@ -101,7 +132,7 @@ body {
     border-radius: 25px;
     width: 500px;
     height: 500px;
-    display: flex;
+    display: none;
     position: absolute;
     right: 30px;
     top: 120px;
@@ -152,7 +183,7 @@ body {
     background-color: #46494C;
     height: 120px;
     width: 500px;
-    display: flex;
+    display: none;
     position: absolute;
     right: 30px;
     top: 580px;
@@ -181,4 +212,14 @@ body {
 
 #Sendbtn:active {
     background-color: #23cf5c;
+}
+
+#croix {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
 }
