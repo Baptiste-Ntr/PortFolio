@@ -19,6 +19,23 @@
     transition: all 0.3s ease;
 }
 
+.yellow {
+    height: 300px;
+    width: 47%;
+    background-color: yellow;
+    display: flex;
+    position: absolute;
+    top: 1550px;
+    transition: all 0.3s ease;
+}
+
+.yellow:hover {
+    width: 53%;
+    height: 400px;
+    top: 1450px;
+    z-index: 98;
+}
+
 .red:hover {
     z-index: 99;
     width: 50%;
@@ -28,6 +45,7 @@
 
 .green:hover {
     height: 450px;
-    width: 900px;
+    width: 70%;
     transition: all 0.3s ease;
+    z-index: 98;
 }
