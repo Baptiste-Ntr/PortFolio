@@ -1,0 +1,35 @@
+.red {
+    height: 300px;
+    width: 500px;
+    background-color: red;
+    display: flex;
+    position: absolute;
+    top: 1250px;
+    transition: all 0.3s ease;
+}
+
+.green {
+    height: 400px;
+    width: 850px;
+    background-color: green;
+    display: flex;
+    position: absolute;
+    top: 1150px;
+    right: 0px;
+    transition: all 0.3s ease;
+}
+
+.red:hover {
+    z-index: 99;
+    width: 550px;
+    height: 350px;   
+    transition: all 0.3s ease;
+}
+
+.green:hover {
+    height: 450px;
+    width: 900px;
+    transition: all 0.3s ease;
+}
+
+.green:

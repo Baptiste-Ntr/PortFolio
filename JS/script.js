@@ -1,5 +1,10 @@
 const AnimTXT = document.getElementById("animtxt");
 
+window.addEventListener("load", function(event) {
+  console.log("tout est chargé");
+  window.scroll(0,0);
+})
+
 new Typewriter(AnimTXT, {
   deleteSpeed: 20,
 })
@@ -27,4 +32,10 @@ function scrolldown(){
   window.scroll(0,1000);
   document.getElementById("projets").className = "projetsinverse";
   document.getElementById("accueil").className = "accueilinverse";
+}
+
+function scrollup() {
+  window.scroll(0,0);
+  document.getElementById("projets").className = "projets";
+  document.getElementById("accueil").className = "accueil";
 }

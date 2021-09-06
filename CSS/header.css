@@ -47,6 +47,31 @@ html {
     box-sizing: border-box;
 }
 
+.accueilinverse {
+    color:#1985A1;
+    border-radius: 100px;
+    background-color: #fff;
+    border: solid 2px #1985A1;
+    height: 54px;
+    width: 139px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.accueilinverse:hover {
+    color:white;
+    border-radius: 100px;
+    background-color: #1985A1;
+    height: 54px;
+    width: 139px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
 .projets, .contact {
     height: 54px;
     width: 139px;
@@ -59,19 +84,6 @@ html {
     justify-content: center;
     cursor: pointer;
     box-sizing: border-box;
-}
-
-.accueilinverse {
-    color:#1985A1;
-    border-radius: 100px;
-    background-color: #fff;
-    border: solid 2px #1985A1;
-    height: 54px;
-    width: 139px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
 }
 
 .projetsinverse {
