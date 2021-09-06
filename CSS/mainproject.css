@@ -1,6 +1,6 @@
 .red {
     height: 300px;
-    width: 500px;
+    width: 45%;
     background-color: red;
     display: flex;
     position: absolute;
@@ -10,7 +10,7 @@
 
 .green {
     height: 400px;
-    width: 850px;
+    width: 65%;
     background-color: green;
     display: flex;
     position: absolute;
@@ -21,7 +21,7 @@
 
 .red:hover {
     z-index: 99;
-    width: 550px;
+    width: 50%;
     height: 350px;   
     transition: all 0.3s ease;
 }
