@@ -6,7 +6,7 @@
 .red {
     height: 300px;
     width: 45%;
-    background-color: red;
+    background-color: #1985A1;
     display: flex;
     position: absolute;
     top: 1250px;
@@ -19,7 +19,7 @@
 .green {
     height: 400px;
     width: 65%;
-    background-color: green;
+    background-color: #20BF55;
     display: flex;
     position: absolute;
     top: 1150px;
@@ -32,7 +32,7 @@
 .yellow {
     height: 320px;
     width: 47%;
-    background-color: yellow;
+    background-color: #ffe100;
     display: flex;
     position: absolute;
     left: 0;
