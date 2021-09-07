@@ -1,5 +1,6 @@
 .red, .yellow, .green, .orange {
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .red {
