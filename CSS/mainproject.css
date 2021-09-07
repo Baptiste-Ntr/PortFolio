@@ -11,6 +11,8 @@
     top: 1250px;
     left: 0;
     transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
 }
 
 .green {
@@ -71,4 +73,11 @@
     width: 70%;
     transition: all 0.3s ease;
     z-index: 98;
+}
+
+#calc {
+    height: 200px;
+    width: 200px;
+    display: flex;
+
 }

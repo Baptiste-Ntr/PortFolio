@@ -28,7 +28,6 @@ function contactclose() {
 }
 
 function scrolldown(){
-  console.log("oui");
   window.scroll(0,1000);
   document.getElementById("projets").className = "projetsinverse";
   document.getElementById("accueil").className = "accueilinverse";
