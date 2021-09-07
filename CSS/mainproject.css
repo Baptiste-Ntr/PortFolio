@@ -1,3 +1,7 @@
+.red, .yellow, .green, .orange {
+    border-radius: 10px;
+}
+
 .red {
     height: 300px;
     width: 45%;
@@ -5,6 +9,7 @@
     display: flex;
     position: absolute;
     top: 1250px;
+    left: 0;
     transition: all 0.3s ease;
 }
 
@@ -20,13 +25,31 @@
 }
 
 .yellow {
-    height: 300px;
+    height: 320px;
     width: 47%;
     background-color: yellow;
     display: flex;
     position: absolute;
-    top: 1550px;
+    left: 0;
+    top: 1530px;
     transition: all 0.3s ease;
+}
+
+.orange {
+    display: flex;
+    position: absolute;
+    background-color: orange;
+    height: 350px;
+    width: 55%;
+    top: 1500px;
+    right: 0;
+    transition: all 0.3s ease;
+}
+
+.orange:hover {
+    width: 60%;
+    height: 400px;
+    top: 1450px;
 }
 
 .yellow:hover {
