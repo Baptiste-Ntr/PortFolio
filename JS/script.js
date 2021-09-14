@@ -38,3 +38,8 @@ function scrollup() {
   document.getElementById("projets").className = "projets";
   document.getElementById("accueil").className = "accueil";
 }
+
+document.getElementById("red").addEventListener("click", function() {
+  document.location.href = "/projets/Calculatrice/index.html";
+  console.log("ouipeutetre");
+})
