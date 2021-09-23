@@ -1,0 +1,25 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    display: flex;
+}
+
+.affichage {
+    height: 100px;
+    width: 400px;
+    background-color: grey;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.pav {
+    display: flex;
+    margin-top: 200px;
+    height: 10px;
+    width: 10px;
+}
