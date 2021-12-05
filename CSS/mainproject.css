@@ -1,10 +1,10 @@
-.red, .yellow, .green, .orange {
+.calc, .globe, .phone, .meteo {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.red {
+.calc {
     height: 300px;
     width: 45%;
     background-color: #1985A1;
@@ -15,9 +15,22 @@
     transition: all 0.3s ease;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
-.green {
+.calc:hover {
+    z-index: 99;
+    width: 50%;
+    height: 350px;   
+    transition: all 0.3s ease;
+}
+
+#imgcalc {
+    height: 200px;
+    width: 200px;
+}
+
+.globe {
     height: 400px;
     width: 65%;
     background-color: #20BF55;
@@ -30,7 +43,19 @@
     align-items: center;
 }
 
-.yellow {
+.globe:hover {
+    height: 450px;
+    width: 70%;
+    transition: all 0.3s ease;
+    z-index: 98;
+}
+
+#imgglobe {
+    height: 200px;
+    width: 200px;
+}
+
+.phone {
     height: 320px;
     width: 47%;
     background-color: #ffe100;
@@ -43,7 +68,19 @@
     align-items: center;
 }
 
-.orange {
+.phone:hover {
+    width: 53%;
+    height: 400px;
+    top: 1450px;
+    z-index: 98;
+}
+
+#imgphone {
+    height: 200px;
+    width: 200px;
+}
+
+.meteo {
     display: flex;
     position: absolute;
     background-color: orange;
@@ -56,49 +93,13 @@
     align-items: center;
 }
 
-.orange:hover {
+.meteo:hover {
     width: 60%;
     height: 400px;
     top: 1450px;
 }
 
-.yellow:hover {
-    width: 53%;
-    height: 400px;
-    top: 1450px;
-    z-index: 98;
-}
-
-.red:hover {
-    z-index: 99;
-    width: 50%;
-    height: 350px;   
-    transition: all 0.3s ease;
-}
-
-.green:hover {
-    height: 450px;
-    width: 70%;
-    transition: all 0.3s ease;
-    z-index: 98;
-}
-
-#calc {
-    height: 200px;
-    width: 200px;
-}
-
-#globe {
-    height: 200px;
-    width: 200px;
-}
-
-#tetris {
-    height: 200px;
-    width: 200px;
-}
-
-#meteo {
+#imgmeteo {
     height: 200px;
     width: 200px;
 }

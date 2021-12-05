@@ -20,6 +20,7 @@ new Typewriter(AnimTXT, {
 function contactopen() {
   document.getElementById("mailcontainer").style.display = "flex";
   document.getElementById("btnsend").style.display = "flex";
+  window.scroll(0,0);
 }
 
 function contactclose() {
@@ -39,7 +40,14 @@ function scrollup() {
   document.getElementById("accueil").className = "accueil";
 }
 
-document.getElementById("red").addEventListener("click", function() {
-  document.location.href = "/projets/Calculatrice/index.html";
+const phone = document.getElementById("phone");
+
+phone.addEventListener("click", function(){
+  document.location.href = "projets/Nav Bar Mobile/";
   console.log("ouipeutetre");
-})
+}, false);
+
+function tpphone() {
+  document.location.href = 'projets/Nav Bar Mobile/';
+  // document.location.href = '/CSS/header.css'
+};
