@@ -3,6 +3,7 @@
 
 body {
     height: 2000px;
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 html {
@@ -12,7 +13,7 @@ html {
 .nav {
     width: 690px;
     height: 73px;
-    background-color: #46494C;
+    background-color: #2D2A32;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -30,40 +31,43 @@ html {
 .accueil {
     color:white;
     border-radius: 100px;
-    background-color: #1985A1;
+    background-color: #2D2A32;
+    border: 3px solid #DDD92A;
     height: 54px;
     width: 139px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .accueil:hover {
-    color: #1985A1;
+    color: #2D2A32;
     background-color: white;
-    border: solid 2px #1985A1;
-    transition: all 0.3s;
-    box-sizing: border-box;
+    font-weight: bold;
 }
 
 .accueilinverse {
-    color:#1985A1;
+    color:#2D2A32;
     border-radius: 100px;
+    font-weight: bold;
     background-color: #fff;
-    border: solid 2px #1985A1;
+    border: solid 3px #DDD92A;
     height: 54px;
     width: 139px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .accueilinverse:hover {
     color:white;
     border-radius: 100px;
-    background-color: #1985A1;
+    background-color: #2D2A32;
+    font-weight: normal;
     height: 54px;
     width: 139px;
     display: flex;
@@ -75,8 +79,9 @@ html {
 .projets, .contact {
     height: 54px;
     width: 139px;
-    color: #1985A1;
-    border: solid 2px #1985A1;
+    color: #2D2A32;
+    font-weight: bold;
+    border: solid 3px #DDD92A;
     background-color: white;
     border-radius: 100px;
     display: flex;
@@ -90,8 +95,8 @@ html {
     height: 54px;
     width: 139px;
     color: #fff;
-    border: solid 2px #1985A1;
-    background-color: #1985A1;
+    border: solid 3px #DDD92A;
+    background-color: #2D2A32;
     border-radius: 100px;
     display: flex;
     align-items: center;
@@ -102,14 +107,14 @@ html {
 }
 
 .projets:hover, .contact:hover {
-    color: white;
-    border: none;
-    background-color: #1985A1;
+    font-weight: normal;
+    color: #fff;
+    background-color: #2D2A32;
     transition: all 0.3s;
 }
 
 .maintext {
-    color: #46494C;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 64px;
     display: flex;
@@ -118,7 +123,7 @@ html {
 }
 
 .arrow {
-    color: #46494C;
+    color: #fff;
     font-size: 64px;
     border-radius: 100%;
     width: 100px;
@@ -137,7 +142,7 @@ html {
 }
 
 .blue {
-    color: #1985A1;
+    color: #EAE151;
 }
 
 .mail-container{
