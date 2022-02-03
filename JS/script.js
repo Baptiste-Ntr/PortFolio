@@ -28,8 +28,11 @@ new Typewriter(AnimTXT, {
 //   document.getElementById("btnsend").style.display = "none";
 // }
 
+let section = document.getElementById("section");
+
 function scrolldown(){
-  window.scroll(0,900);
+  // window.scroll(0,900);
+  section.scrollIntoView();
   document.getElementById("projets").className = "projetsinverse";
   document.getElementById("accueil").className = "accueilinverse";
 }
