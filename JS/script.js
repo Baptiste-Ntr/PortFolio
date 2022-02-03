@@ -29,7 +29,7 @@ new Typewriter(AnimTXT, {
 // }
 
 function scrolldown(){
-  window.scroll(0,1100);
+  window.scroll(0,900);
   document.getElementById("projets").className = "projetsinverse";
   document.getElementById("accueil").className = "accueilinverse";
 }
