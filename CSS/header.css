@@ -21,21 +21,20 @@ html {
 }
 
 .nav {
-    width: 300px;
-    height: 73px;
-    /* background-color: #2d2a32c4; */
+    position: sticky;
+    width: 31.88097768331562vh;
+    height: 7.757704569606801vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     border-radius: 100px;
-    position: fixed;
-    right: 50px;
-    top: 30px;
+    margin-left: auto;
+    top: 1vh;
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    box-sizing: border-box;
+    font-size: 3.7194473963868226vh;
     z-index: 99;
+
 }
 
 .accueil {
@@ -44,7 +43,7 @@ html {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     /* background-color: #2D2A32;
     border: 3px solid #DDD92A; */
-    height: 54px;
+    height: 5.738575982996812vh;
     width: 100px;
     display: flex;
     align-items: center;
@@ -143,25 +142,25 @@ html {
     display: flex;
     line-height: 2.3em;
     letter-spacing: 0.7px;
-    margin-top: 300px;
-    margin-left: 40px;
+    margin-top: 10vh;
+    margin-left: 4.2507970244420825vh;
 }
 
 .arrow {
     color: #fff;
-    font-size: 64px;
+    font-size: 6.801275239107333vh;
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 10.626992561105208vh;
+    height: 10.626992561105208vh;
     display: flex;
     align-items: center;
     justify-content: center;
     /* border: solid 7px #46494C; */
     margin: auto;
-    margin-top: 30px;
+    margin-top: 3.1880977683315623vh;
     cursor: pointer;
     position: absolute;
-    bottom: 30px;
+    bottom: 3.1880977683315623vh;
     left: 0;
     right: 0;
 }
