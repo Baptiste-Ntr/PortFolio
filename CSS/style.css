@@ -7,9 +7,10 @@ section {
     justify-content: center;
     align-items: center;
     margin-top: 500px;
+    
 }
 
-section:before {
+/* section:before {
     content: '';
     position: absolute;
     width: 400px;
@@ -27,8 +28,62 @@ section::after {
     background: linear-gradient(115deg,#2196f3,#31ff38);
     border-radius: 50%;
     transform: translate(250px, 150px);
+} */
+
+.boule {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    right: 100px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    /* background: linear-gradient(45deg,#2196f3,#31ff38); */
+    background: linear-gradient(45deg, #dce35b, #45b649);
+    filter: drop-shadow(0 0 5px #dce35b);
+    animation-duration: 15s;
+    animation-name: boule;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
+.boule2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1300px;
+    left: 75px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, #feac5e, #c779d0, #4bc0c8);
+    filter: drop-shadow(0 0 5px #c779d0);
+    animation-duration: 20s;
+    animation-name: boule;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes boule {
+
+    from {
+        transform: scale(1.645) rotate(0deg) translate3d(0px, 0px, 0px);
+        opacity: 0.85;
+    }
+
+    50% {
+        transform: scale(2.5) rotate(360deg) translate3d(calc(var(--i)*25px), calc(var(--i)*10px), 0px);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.645) rotate(0deg) translate3d(0px, 0px, 0px);
+        opacity: 0.85;
+    }
+}
 .box {
     position: relative;
     min-width: 350px;
