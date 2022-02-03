@@ -27,6 +27,8 @@ section {
     animation-name: boule;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    cursor: pointer;
+    /* transform: translateZ(-10px) scale(2); */
 }
 
 .boule2 {
@@ -41,30 +43,32 @@ section {
     height: 42.50797024442083vh;
     background: linear-gradient(45deg, #feac5e, #c779d0, #4bc0c8);
     filter: blur(1px);
-    box-shadow: 0 0 10px #c779d0;
+    box-shadow: 0 0 10px rgba(199, 121, 208, 0.75);
     animation-duration: 50s;
     animation-name: boule;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    
 }
 
 @keyframes boule {
 
     from {
-        transform: scale(1.645) rotate(0deg) translate3d(0px, 0px, 0px);
+        transform: scale(1.645) translate3d(0px, 0px, 0px);
         opacity: 0.85;
     }
 
     50% {
-        transform: scale(2.5) rotate(360deg) translate3d(calc(var(--i)*2.656748140276302vh), calc(var(--i)*1.0626992561105206vh), 0px);
+        transform: scale(2.5) translate3d(calc(var(--i)*2.656748140276302vh), calc(var(--i)*1.0626992561105206vh), 0px);
         opacity: 1;
     }
 
     to {
-        transform: scale(1.645) rotate(0deg) translate3d(0px, 0px, 0px);
+        transform: scale(1.645) translate3d(0px, 0px, 0px);
         opacity: 0.85;
     }
 }
+
 .box {
     position: relative;
     min-width: 350px;

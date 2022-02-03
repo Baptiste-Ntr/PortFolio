@@ -6,15 +6,15 @@ window.addEventListener("load", function(event) {
 })
 
 new Typewriter(AnimTXT, {
-  deleteSpeed: 20,
+  deleteSpeed: 30,
 })
   .changeDelay(100)
   .typeString("Baptiste Nautré, <br>")
   .pauseFor(300)
-  .typeString("Développeur Front End")
+  .typeString("Développeur Front-End")
   .pause(1000)
   .deleteChars(10)
-  .typeString("<a class='blue'> Front End</a>." )
+  .typeString("<a class='blue'> Front-End</a>." )
   .start();
 
 // function contactopen() {
@@ -28,29 +28,40 @@ new Typewriter(AnimTXT, {
 //   document.getElementById("btnsend").style.display = "none";
 // }
 
-let section = document.getElementById("section");
 
 function scrolldown(){
-  // window.scroll(0,900);
   section.scrollIntoView();
-  document.getElementById("projets").className = "projetsinverse";
-  document.getElementById("accueil").className = "accueilinverse";
 }
 
 function scrollup() {
   window.scroll(0,0);
-  document.getElementById("projets").className = "projets";
-  document.getElementById("accueil").className = "accueil";
 }
 
-// const phone = document.getElementById("phone");
+var boule = document.querySelector(".boule");
 
-// phone.addEventListener("click", function(){
-//   document.location.href = "projets/Nav Bar Mobile/";
-//   console.log("ouipeutetre");
-// }, false);
+boule.onclick = function() {
+  boule.classList.toggle('active');
+  setTimeout(function(){
+    boule.classList.toggle('active')
+  }, 3000);
+}
 
-// function tpphone() {
-//   document.location.href = 'projets/Nav Bar Mobile/';
-//   // document.location.href = '/CSS/header.css'
-// };
+var bouboule = document.getElementById("bouboule");
+
+window.addEventListener('scroll', function(){
+  var value = window.scrollY;
+
+  value = value * 0.10626992561105207;
+
+  bouboule.style.top = 21.25 + (value * 0.5) + 'vh';
+})
+
+// var bouboule2 = document.getElementById("bouboule2");
+
+// window.addEventListener("scroll", function () {
+//   var value = window.scrollY;
+
+//   value = value * 0.10626992561105207;
+
+//   bouboule2.style.top = 115.15 + value * 0.3 + "vh";
+// });
