@@ -21,7 +21,8 @@ section {
     height: 42.50797024442083vh;
     /* background: linear-gradient(45deg,#2196f3,#31ff38); */
     background: linear-gradient(45deg, #dce35b, #45b649);
-    filter: drop-shadow(0 0 5px #dce35b) blur(1px);
+    filter: blur(1px);
+    box-shadow: 0 0 5px #dce35b;
     animation-duration: 45s;
     animation-name: boule;
     animation-iteration-count: infinite;
@@ -39,7 +40,8 @@ section {
     width: 42.50797024442083vh;
     height: 42.50797024442083vh;
     background: linear-gradient(45deg, #feac5e, #c779d0, #4bc0c8);
-    filter: drop-shadow(0 0 5px #c779d0) blur(1px);
+    filter: blur(1px);
+    box-shadow: 0 0 5px #c779d0;
     animation-duration: 50s;
     animation-name: boule;
     animation-iteration-count: infinite;
