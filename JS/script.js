@@ -47,6 +47,7 @@ boule.onclick = function() {
 }
 
 var bouboule = document.getElementById("bouboule");
+var bouboule2 = document.getElementById("bouboule2");
 
 window.addEventListener('scroll', function(){
   var value = window.scrollY;
@@ -54,4 +55,6 @@ window.addEventListener('scroll', function(){
   value = value * 0.10626992561105207;
 
   bouboule.style.top = 21.25 + (value * 0.65) + 'vh';
+  bouboule2.style.top = 220 - (value * 0.65) + 'vh';
 })
+
