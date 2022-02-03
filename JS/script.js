@@ -53,15 +53,5 @@ window.addEventListener('scroll', function(){
 
   value = value * 0.10626992561105207;
 
-  bouboule.style.top = 21.25 + (value * 0.5) + 'vh';
+  bouboule.style.top = 21.25 + (value * 0.65) + 'vh';
 })
-
-// var bouboule2 = document.getElementById("bouboule2");
-
-// window.addEventListener("scroll", function () {
-//   var value = window.scrollY;
-
-//   value = value * 0.10626992561105207;
-
-//   bouboule2.style.top = 115.15 + value * 0.3 + "vh";
-// });

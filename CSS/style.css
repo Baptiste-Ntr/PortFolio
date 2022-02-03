@@ -14,11 +14,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 21.253985122210416vh;
-    right: 10.626992561105208vh;
+    top: 19vh;
+    right: 12vh;
     border-radius: 50%;
-    width: 42.50797024442083vh;
-    height: 42.50797024442083vh;
+    width: 32vh;
+    height: 32vh;
     /* background: linear-gradient(45deg,#2196f3,#31ff38); */
     background: linear-gradient(45deg, #dce35b, #45b649);
     filter: blur(1px);
