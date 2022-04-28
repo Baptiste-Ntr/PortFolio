@@ -8,8 +8,14 @@ const cat2 = document.getElementById('cat2');
 
 fetch("https://api.thecatapi.com/v1/images/search")
   .then((res) => res.json())
-  .then((data) => (cat1.src = data[0].url))
+  .then((data) => (cat1.src = data[0].url));
 
 fetch("https://api.thecatapi.com/v1/images/search")
     .then((res) => res.json())
     .then((data) => (cat2.src = data[0].url));
+
+let refresh = document.getElementById("refresh");
+
+refresh.addEventListener("click", event => {
+  location.reload(true);
+})
