@@ -69,6 +69,63 @@ section {
     }
 }
 
+.cv {
+    display: flex;
+    position: absolute;
+    height: 15vh;
+    width: 15vh;
+    /* background-color: #03a9f4; */
+    box-shadow: 1px 1px 10px 3px rgba(0, 238, 255, 0.5);
+    top: 180vh;
+    right: 15vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: morph 8s ease-in-out infinite both alternate;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+    }
+
+    100% {
+        border-radius: 40% 60%;
+    }
+}
+
+.cv:hover {
+    transform: scale(1.1);
+}
+
+.cv a {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.arrowcv {
+    position: absolute;
+    display: flex;
+    top: 182vh;
+    right: 11vw;
+    height: 5vh;
+    width: 5vh;
+    color: #dce35b;
+    font-size: 100px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.arrowcv ion-icon:hover .cv {
+    transform: scale(1.5);
+}
+
+
 .box {
     position: relative;
     min-width: 350px;

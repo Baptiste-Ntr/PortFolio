@@ -55,7 +55,7 @@ window.addEventListener('scroll', function(){
   value = value * 0.10626992561105207;
 
   setTimeout(function () {
-    bouboule.style.top = 21.25 + value * 0.65 + "vh";
+    bouboule.style.top = 21.25 + value * 0.85 + "vh";
   }, 50);
 
   setTimeout(function(){
