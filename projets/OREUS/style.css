@@ -25,6 +25,7 @@ body {
     margin-top: 6vh;
     margin-left: 10vh;
     letter-spacing: 10px;
+    font-weight: 900;
 }
 
 .swiper {
@@ -53,7 +54,7 @@ body {
 
 .download {
     height: 10vh;
-    width: 15vw;
+    width: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,4 +87,12 @@ body {
     word-spacing: 20px;
 }
 
+.download i {
+    color: rgb(0, 218, 11);
+}
 
+@media (max-widht: 1250px) {
+    .download {
+        color: blue;
+    }
+}
